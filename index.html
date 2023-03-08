@@ -1,119 +1,203 @@
 <!DOCTYPE html>
 <html>
-  
+
 <head>
-    <title>
-        LSPU STRAND/TRACKS
-        using HTML and CSS
-    </title>
-     
-    <meta name="viewport"
-        content="width=device-width, initial-scale=1">
+	<title>
+		LSPU STRANDSPTRACKS
+		using HTML and CSS
+	</title>
+	
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1">
+		
+	<style>
+	
+		/* wildcard styling */
+		* {
+			box-sizing: border-box;
+		}
+		
+		/* padding for whole body */
+		body {
+			padding: 15px;
+		}
+		
+		/* styling body */
+		.container {
+			max-width: 1200px;
+			margin: auto;
+		}
+		
+		h1 {
+			color: rgb(0, 0, 0);
+		}
+		
+		/* anchor tag decoration */
+		a {
+			text-decoration: none;
+			color: #000000;
+		}
+		
+		a:hover {
+			color: rgb(0, 0, 0);
+		}
+		
+		/* paragraph tag decoration */
+		p {
+			display: -webkit-box;
+			-webkit-box-orient: vertical;
+			-webkit-line-clamp: 4;
+			overflow: hidden;
+	
+		}
+		
+		/* row and column decoration */
+		.row {
+			margin: 0px -18px;
+			padding: 8px;
+		}
+		
+		.row > .column {
+			padding: 6px;
+		}
+		
+		.column {
+			float: left;
+			width: 25%;
+		}
+		
+		.row:after {
+			content: "";
+			display: table;
+			clear: both;
+		}
+		
+		/* content decoration */
+		.content {
+			background-color: white;
+			padding: 10px;
+			border: 1px solid gray;
+		}
+		
+		/* window size 850 width set */
+		@media screen and (max-width: 850px) {
+			.column {
+				width: 50%;
+			}
+		}
+	
+		/* window size 400 width set */
+		@media screen and (max-width: 400px) {
+			.column {
+				width: 100%;
+			}
+		}
+	</style>
 </head>
- 
+
 <body>
-      
-    <!-- title and tag -->
-    <div class="container">
-        <h1>LSPU STRAND/TRACKS</h1>
-        <h3>A Computer Science Portal for Geeks</h3>
-        <hr>
-  
-        <!-- Content of the body-->
-        <h2>Portfolio</h2>
-        <div class="row">
-            <div class="column">
-                <div class="content">
-                    <img src=
-"ICT.zip"
-                        alt="" style="width:100%">
-                    <h3>
-                        <a href="#">Information and Communication Technology</a>
-                    </h3>
-                     
- 
- 
- 
+	
+	<!-- title and tag -->
+	<div class="container">
+		<h1>LSPU STRANDS/TRACKS</h1>
+		<h3>LAGUNA STATE POLYTHECNIC UNIVERSITY</h3>
+		<hr>
+
+		<!-- Content of the body-->
+		<h2>Portfolio</h2>
+		<div class="row">
+			<div class="column">
+				<div class="content">
+					<img src=
+"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX7XTImbajLDCK3dH6jMoc3nSRhH2s8j3BcQ&usqp=CAU"
+						alt="" style="width:100%">
+					<h3>
+						<a href="#">Information and Communications Technology Track</a>
+					</h3>
+					
+
+
+
 <p>
-    (ICT) is defined as a diverse set of technological tools and resources used to transmit, store, create, share or exchange information. These technological tools and resources include computers, the Internet (websites, blogs and emails), live broadcasting technologies (radio, television and webcasting), recorded broadcasting technologies (podcasting, audio and video players, and storage devices) and telephony (fixed or mobile, satellite, visio/video-conferencing, etc.).
-                    </p>
- 
- 
- 
- 
-                </div>
-            </div>
-             
-            <div class="column">
-                <div class="content">
-                    <img src=
-"https://www.geeksforgeeks.org/wp-content/uploads/CSS.png"
-                        alt="" style="width:100%">
-                    <h3>
-                        <a href="#">Accountancy, Business, and Management</a>
-                    </h3>
-                     
-                     
- 
- 
- 
+	(ICT) is defined as a diverse set of technological tools and resources used to transmit, store, create, share or exchange information.
+					</p>
+
+
+
+
+				</div>
+			</div>
+			
+			<div class="column">
+				<div class="content">
+					<img src=
+"https://companieslogo.com/img/orig/ABM-c506eec6.png?t=1673238472"
+						alt="" style="width:100%">
+					<h3>
+						<a href="#">Accountancy, Business, and Management</a>
+					</h3>
+					
+					
+
+
+
 <p>
-    (ABM) is a broad and dynamic discipline. It analyses how an organisation uses both its tangible and intangible resources and provides the information which organisations need to make decisions on the deployment of those resources efficiently and effectively.
-                    </p>
- 
- 
- 
- 
-                </div>
-            </div>
-             
-            <div class="column">
-                <div class="content">
-                    <img src=
-"https://www.geeksforgeeks.org/wp-content/uploads/php-1.png"
-                        alt="" style="width:100%">
-                    <h3>
-                        <a href="#">Humanities and Social Sciences Strand</a>
-                    </h3>
-                     
-                     
- 
- 
- 
+	(ABM) is a broad and dynamic discipline. It analyses how an organisation uses both its tangible and intangible resources and provides the information which organisations need to make decisions on the deployment of those resources efficiently and effectively.
+					</p>
+
+
+
+
+				</div>
+			</div>
+			
+			<div class="column">
+				<div class="content">
+					<img src=
+"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKXAF8ogsUbKX-I5-u294WsJbCQlooN5f5ZkDF12yLCHHfpQ11N-GQNVDf_-jSeoMBBTE&usqp=CAU"
+						alt="" style="width:100%">
+					<h3>
+						<a href="#">Humanities and Social Sciences Strand</a>
+					</h3>
+					
+					
+
+
+
 <p>
-    (HUMSS) strands equip students with a wide range of discipline with the use of their experiences and skills into the investigation and inquiry of human situations by studying its behavior and social changes using empirical, analytical, and critical method techniques.
-                    </p>
- 
- 
- 
- 
-                </div>
-            </div>
-             
-            <div class="column">
-                <div class="content">
-                    <img src=
-"https://www.geeksforgeeks.org/wp-content/uploads/javascript.png"
-                        alt="" style="width:100%">
-                    <h3>
-                        <a href="#">Agricultral and Fisheries Arts Strand</a>
-                    </h3>
-                     
-                     
- 
- 
- 
+	(HUMSS) strands equip students with a wide range of discipline with the use of their experiences and skills into the investigation and inquiry of human situations by studying its behavior and social changes using empirical, analytical, and critical method techniques.
+					</p>
+
+
+
+
+				</div>
+			</div>
+			
+			<div class="column">
+				<div class="content">
+					<img src=
+"https://www.afa.asn.au/wp-content/uploads/AFA-primary-logo-cmyk-blue2.png"
+						alt="" style="width:100%">
+					<h3>
+						<a href="#">Agri-Fishery Arts Track</a>
+					</h3>
+					
+					
+
+
+
 <p>
-    (AFA) strand was designed for hands-on learning and application of skills that are related to agriculture and aquaculture. You will be taking various subjects that are connected to other jobs such as food processing, rubber production, animal production, or landscape installation.
-                    </p>
- 
- 
- 
- 
-                </div>
-            </div>
-        </div>
-    </div>
+	(AFA) strand was designed for hands-on learning and application of skills that are related to agriculture and aquaculture. You will be taking various subjects that are connected to other jobs such as food processing, rubber production, animal production, or landscape installation.
+					</p>
+
+
+
+
+				</div>
+			</div>
+		</div>
+	</div>
 </body>
-  
+
 </html>
